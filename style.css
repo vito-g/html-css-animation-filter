@@ -55,6 +55,7 @@
     width: 60px;
     height: 60px;
     background: red;
+    /* Dichiarazione Inserita */
     transition: transform 1s;
 }
 
