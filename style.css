@@ -11,16 +11,30 @@
 }
 /* End EX-1 */
 
+/* TODO: ES-2 */
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+/* TODO: ES-2 */
+
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
+    /* Dichiarazione Inserita */
+    transition: border-radius .5s;
 }
+
+.ex-3-square:hover {
+    border-radius: 50%;
+}
+/* END EX-3 */
+
+
+
+
 .ex-4-square {
     width: 100px;
     height: 100px;
