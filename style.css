@@ -99,7 +99,19 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    /* Dichiarazione inserita */
+    transition: 2s;
 }
+
+.ex-9-img:hover {
+    filter: sepia(.6) saturate(.6);
+    border-radius: 30px;
+    transform: scale(1.5);
+}
+/* END ES-9 */
+
+
+
 .ex-10-icon {
     font-size: 60px;
 }
