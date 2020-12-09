@@ -86,6 +86,16 @@
 }
 /* END ES-7 */
 
+.ex-8-img {
+    transition: 2s;
+}
+
+.ex-8-img:hover {
+    filter: saturate(.5) grayscale(.5);
+    border-radius: 20px;
+}
+/* END ES-8 */
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
