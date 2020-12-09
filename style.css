@@ -11,13 +11,18 @@
 }
 /* End EX-1 */
 
-/* TODO: ES-2 */
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
+    /* Dichiarazione Inserita */
+    transition: width 1s;
 }
-/* TODO: ES-2 */
+
+.ex-2-square:active {
+    width: 100%;
+}
+/* END ES-2 */
 
 .ex-3-square {
     width: 100px;
@@ -50,7 +55,22 @@
     width: 60px;
     height: 60px;
     background: red;
+    transition: transform 1s;
 }
+
+.ex-5-square:hover {
+   transform: scale(2);
+}
+
+.ex-5-square:active {
+   transform: scale(.5);
+}
+
+/* END ES-5 */
+
+
+
+
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
