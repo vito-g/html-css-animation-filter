@@ -110,11 +110,37 @@
 }
 /* END ES-9 */
 
+/* Prova per rotazione */
+/* .ex-10-icon {
+    font-size: 60px;
+    animation-name: rotation;
+    animation-duration: .7s;
+    animation-iteration-count: infinite;
+}
 
+@keyframes rotation {
+  20% {transform: rotate(-72deg)}
+  40% {transform: rotate(-144deg)}
+  60% {transform: rotate(-216deg)}
+  80% {transform: rotate(-288deg)}
+  100% {transform: rotate(-360deg)}
+} */
 
 .ex-10-icon {
     font-size: 60px;
+    /* Dichiarazione Inserita */
+    animation: spin 1s linear infinite;
 }
+
+@keyframes spin {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+/* END ES-10 */
+
+
+
 .ex-11-icon {
     font-size: 60px;
 }
