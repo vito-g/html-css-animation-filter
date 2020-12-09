@@ -80,11 +80,11 @@
 .ex-7-img {
     transition: filter 2s;
 }
-/* END ES-7 */
 
 .ex-7-img:hover {
     filter: grayscale(.5) sepia(.5);
 }
+/* END ES-7 */
 
 .ex-9-img {
     margin: 50px 100px;
