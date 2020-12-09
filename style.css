@@ -66,15 +66,16 @@
 .ex-5-square:active {
    transform: scale(.5);
 }
-
 /* END ES-5 */
-
-
-
 
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
+
+.ex-6-img:hover {
+  filter: grayscale(1);
+}
+/* END ES-6 */
 
 .ex-9-img {
     margin: 50px 100px;
